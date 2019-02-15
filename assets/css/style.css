@@ -48,6 +48,10 @@ table {
 
 /* General CSS styling */
 
+body {
+	background-color: seashell;
+}
+
 header {
 
 }
@@ -97,7 +101,7 @@ img {
 }
 
 .wrapper-main {
-
+	
 }
 
 .title {
