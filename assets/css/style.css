@@ -117,15 +117,29 @@ img {
 /* navigation bar css styling */
 
 .head {
-
+	background-color: whitesmoke;
+	border-bottom: 2px solid darkgray;
+	padding: 5px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
 }
 
 .head .name {
-
+	margin-left: 10%;
 }
 
 .head .nav-bar {
+	width: 200px;
+	margin-right: 10%;
+}
 
+.nav-bar .nav-items {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
 }
 
 .nav-bar .about-link {
