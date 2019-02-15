@@ -46,7 +46,59 @@ table {
 
 /* reset end */
 
-/* navigation bar styling */
+/* General CSS styling */
+
+header {
+
+}
+
+main {
+
+}
+
+section {
+
+}
+
+article {
+	
+}
+
+h1 {
+
+}
+
+h2 {
+
+}
+
+h3 {
+
+}
+
+p {
+	
+}
+
+label {
+
+}
+
+input {
+
+}
+
+a {
+
+}
+
+img {
+
+}
+
+/* General styling end */
+
+/* navigation bar css styling */
 .head {
 
 }
@@ -70,3 +122,6 @@ table {
 .nav-bar .portfolio-link {
 	
 }
+
+/* navigation bar styling end */
+
