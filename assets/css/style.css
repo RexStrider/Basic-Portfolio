@@ -50,6 +50,7 @@ table {
 
 body {
 	background-color: seashell;
+	color: #777777;
 }
 
 header {
@@ -112,13 +113,22 @@ img {
 
 }
 
+.footer {
+	right: 0;
+	left: 0;
+    bottom: 0;
+    position: fixed;
+    background-color: #666666;
+    height: 50px;
+}
+
 /* General styling end */
 
 /* navigation bar css styling */
 
 .head {
-	background-color: whitesmoke;
-	border-bottom: 2px solid darkgray;
+	background-color: #ffffff;
+	border-bottom: 1px solid #cccccc;
 	padding: 5px;
 	display: flex;
 	flex-direction: row;
@@ -126,8 +136,9 @@ img {
 	align-items: center;
 }
 
-.head .name {
+.nav-header {
 	margin-left: 10%;
+	background-color: #4aaaa5
 }
 
 .head .nav-bar {
