@@ -49,8 +49,8 @@ table {
 /* General CSS styling */
 
 body {
-	background-color: seashell;
 	color: #777777;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
 
 header {
@@ -70,7 +70,7 @@ article {
 }
 
 h1 {
-
+	font-family: 'Georgia', Times, Times New Roman, serif;
 }
 
 h2 {
@@ -102,7 +102,7 @@ img {
 }
 
 .wrapper-main {
-	
+	background-color: #ffffff;
 }
 
 .title {
@@ -128,7 +128,7 @@ img {
 
 .head {
 	background-color: #ffffff;
-	border-bottom: 1px solid #cccccc;
+	border-bottom: 2px solid #cccccc;
 	padding: 5px;
 	display: flex;
 	flex-direction: row;
