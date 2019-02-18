@@ -248,13 +248,16 @@ img {
 
 /* Portfolio page CSS styling */
 
+.content-portfolio {
+	padding-top: 35px;
+}
+
 .portfolio-display-row {
 	display: flex;
-
 }
 
 .project {
-	margin: 0px 40px 50px 0px;
+	margin-right: 40px;
 }
 
 .project-link {
@@ -266,6 +269,8 @@ img {
 }
 
 .project-title {
+	position: relative;
+	bottom: 60px;
 	color: #ffffff;
 	background-color: #4aaaa5;
 	padding: 15px;
