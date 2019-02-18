@@ -104,7 +104,8 @@ img {
 }
 
 .wrapper-main {
-	margin: 40px 15% 0px 15%;
+	margin: 40px 15% 80px 15%;
+	padding: 40px 30px 40px 30px;
 	background-color: #ffffff;
 	border: 1px solid #cccccc;
 }
@@ -121,10 +122,10 @@ img {
 	right: 0;
 	left: 0;
     bottom: 0;
-    position: fixed;
+    position: absolute;
     background-color: #666666;
-	height: 50px;
-	border-top: 5px solid #4aaaa5;
+	height: 60px;
+	border-top: 10px solid #4aaaa5;
 }
 
 /* General styling end */
@@ -142,8 +143,9 @@ img {
 
 .nav-header {
 	color: #ffffff;
-	margin-left: 10%;
 	background-color: #4aaaa5;
+	margin-left: 15%;
+	padding: 20px;
 }
 
 .head .nav-bar {
