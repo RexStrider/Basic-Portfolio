@@ -85,7 +85,8 @@ h3 {
 }
 
 p {
-	
+	line-height: 32px;
+	padding: 10px 0px 10px 0px;
 }
 
 label {
@@ -105,8 +106,8 @@ img {
 }
 
 .wrapper-main {
-	margin: 40px 15% 80px 15%;
-	padding: 40px 30px 40px 30px;
+	margin: 40px 15% 100px 15%;
+	padding: 30px;
 	background-color: #ffffff;
 	border: 1px solid #cccccc;
 }
@@ -118,14 +119,14 @@ img {
 
 .content {
     border-top: 3px solid #cccccc;
-    padding-top: 30px;
+    padding-top: 15px;
 }
 
 .footer {
 	right: 0;
 	left: 0;
     bottom: 0;
-    position: fixed;
+    position: relative;
     background-color: #666666;
 	height: 60px;
 	border-top: 10px solid #4aaaa5;
@@ -180,7 +181,13 @@ img {
 /* About page css styling */
 
 .profile-picture-and-bio {
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+}
 
+.profile-picture-and-bio img {
+	margin: 20px 10px 0px 0px;
 }
 
 .biography {
