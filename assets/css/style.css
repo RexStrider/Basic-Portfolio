@@ -249,15 +249,16 @@ img {
 /* Portfolio page CSS styling */
 
 .portfolio-display-row {
+	display: flex;
 
 }
 
 .project {
-
+	margin: 0px 40px 50px 0px;
 }
 
 .project-link {
-
+	text-decoration: none;
 }
 
 .project-image {
@@ -265,7 +266,10 @@ img {
 }
 
 .project-title {
-
+	color: #ffffff;
+	background-color: #4aaaa5;
+	padding: 15px;
+	text-align: center;
 }
 
 /* Portfolio page styling end */
