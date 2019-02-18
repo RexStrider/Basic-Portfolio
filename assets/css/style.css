@@ -111,6 +111,7 @@ img {
 	background-color: #ffffff;
 	border: 1px solid #cccccc;
 	min-height: calc(100vh - 170px);
+	width: 960px;
 }
 
 .title {
@@ -140,6 +141,12 @@ img {
 .head {
 	background-color: #ffffff;
 	border-bottom: 2px solid #cccccc;
+}
+
+.nav-bar {
+	width: 1020px;
+	margin-left: 15%;
+	margin-right: 15%;
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
@@ -149,32 +156,37 @@ img {
 .nav-header {
 	color: #ffffff;
 	background-color: #4aaaa5;
-	margin-left: 15%;
 	padding: 20px;
 }
 
-.head .nav-bar {
-	width: 200px;
-	margin-right: 15%;
-}
-
-.nav-bar .nav-items {
+.nav-items {
+	width: 250px;
 	display: flex;
 	flex-direction: row;
-	justify-content: space-around;
+	justify-content: space-between;
 	align-items: center;
 }
 
-.nav-bar .about-link {
+.nav-items a {
+	color: #777777;
+	text-decoration: none;
+}
 
+.nav-bar .about-link {
+	/* border-right: 2px solid #666666; */
 }
 
 .nav-bar .contact-link {
-	
+	/* border-right: 2px solid #666666; */
 }
 
 .nav-bar .portfolio-link {
 	
+}
+
+.vertical-border-line {
+	border-right: 1px solid #cccccc;
+	height: 20px;
 }
 
 /* navigation bar styling end */
