@@ -140,6 +140,14 @@ img {
 	border-top: 10px solid #4aaaa5;
 }
 
+.footer-copyright {
+	position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #cccccc;
+}
+
 /* .display-row {
 	display: flex;
 } */
