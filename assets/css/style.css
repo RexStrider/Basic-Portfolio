@@ -44,6 +44,9 @@ table {
 	border-spacing: 0;
 }
 
+button {
+}
+
 /* reset end */
 
 /* General CSS styling */
@@ -256,7 +259,14 @@ img {
 }
 
 .contact-form .button {
-
+	align-self: flex-start;
+	color: #ffffff;
+	background-color: #4aaaa5;
+	font-size: 18px;
+	padding: 10px 30px 10px 30px;
+	margin-top: 20px;
+	border-width: 0px;
+	cursor: pointer;
 }
 
 /* Contact page styling end */
