@@ -117,7 +117,7 @@ img {
 	background-color: #ffffff;
 	border: 1px solid #cccccc;
 	min-height: calc(100vh - 270px);
-	width: 960px;
+	width: 900px;
 }
 
 .title {
@@ -162,7 +162,7 @@ img {
 }
 
 .nav-bar {
-	width: 1020px;
+	width: 960px;
 	margin-left: 15%;
 	margin-right: 15%;
 	display: flex;
